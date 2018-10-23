@@ -207,25 +207,6 @@ public class WXPageActivity extends AbsWeexActivity implements
     else {
       JUtils.Toast(this.getString(R.string.permissontip));
     }
-
-   /*   //部分厂商手机系统返回授权成功时，厂商可以拒绝权限，所以要用PermissionChecker二次判断
-      if (requestCode == PERMISSION_REQUEST_CODE && PermissionsUtil.isGranted(grantResults)
-              && PermissionsUtil.hasPermission(this, permissions)) {
-        Log.i("tchl","PermissionActivity onRequestPermissionsResult 同意授权");
-        permissionsGranted();
-      } else if (showTip){
-        Log.i("tchl","PermissionActivity onRequestPermissionsResult 不同意授权，打开提示对话框，进入到app设置界面");
-        showMissingPermissionDialog();
-      } else { //不需要提示用户
-        Log.i("tchl","PermissionActivity onRequestPermissionsResult 不同意授权，permissonsDenied");
-        permissionsDenied();
-      }*/
-
-    /*Intent intent = new Intent("requestPermission");
-    intent.putExtra("REQUEST_PERMISSION_CODE", requestCode);
-    intent.putExtra("permissions", permissions);
-    intent.putExtra("grantResults", grantResults);
-    LocalBroadcastManager.getInstance(this).sendBroadcast(intent);*/
   }
 
 
