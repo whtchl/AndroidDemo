@@ -1,3 +1,9 @@
+=====
+这是一个用weex的webView的， h5和native交互的demo。 点击"WEEX DEMO"进去查看。
+没有将weex的webView做成module
+============
+
+
 LruCacheDemo 是 图片三级缓存的demo
 
 <img src="https://raw.githubusercontent.com/whtchl/AndroidDemo/master/img/1.jpg"/>
